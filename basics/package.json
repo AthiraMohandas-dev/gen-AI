@@ -1,0 +1,21 @@
+{
+  "name": "gen-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node -r ts-node/register src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "@types/node": "^25.9.3",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
